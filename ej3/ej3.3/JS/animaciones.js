@@ -1,3 +1,4 @@
+/*
 $(document).ready(function(){ 
     var boton = $('#boton'); 
     boton.on('click', function(){ 
@@ -83,6 +84,7 @@ $(document).ready(function(){
         $('#caja').addClass('animacion');
     });
 });
+*/
 
 $(document).ready(function(){ 
     $('#boton').on('click', function(){ 

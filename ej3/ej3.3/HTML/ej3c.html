@@ -10,13 +10,20 @@
             background: #FF9900;
         }
 
+        .animacion {
+            width: 150px;
+            height: 150px;
+            background: #FF9900;
+        }
+
         @keyframes colores {
-            from{background: #F2f5A9;}
-            to{background: #FA8258;}
+            from { background: #F2F5A9; }
+            to { background: #FA8258; }
+        }.animacion {
+            animation: colores 3s ease;
         }
-        .animacion{
-            animation: color 3s ease;
-        }
+
+        
 
     </style>
 </head>
@@ -24,8 +31,10 @@
     <button id="boton">Animar</button>
     <br>
     <div class="caja" id="caja"></div>
+    <br>
+    <div class="animacion" id="caja"></div>
 
-    <script src="jquery.min.js"></script>
-    <script src="animaciones.js"></script>
+    <script src="../jQuery/jquery.min.js"></script>
+    <script src="../JS/animaciones.js"></script>
 </body>
 </html>
